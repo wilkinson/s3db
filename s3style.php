@@ -12,18 +12,6 @@ function popUp(URL) {
 	eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=1024,height=768,left = 0,top = 0');");
 }
 
-function shownhidden (id)
-{
-        details = document.getElementById(id);
-        if (details.className=="shown")
-        {
-                details.className="hidden";
-        }
-        else
-        {
-                details.className="shown";
-        }
-}
 var checkflag = "false";
 
 
