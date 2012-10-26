@@ -6,7 +6,7 @@
 //  had trouble reading it, I uncommented the `querycode` function definition
 //  and then ran this file as a program using the D8 developer shell:
 //
-//      $ d8 s3db.js > output.js; mv output.js s3db.js).
+//      $ d8 s3db.js > output.js; mv output.js s3db.js
 //
 //
 //      querycore = function (obj) {
